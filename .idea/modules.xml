@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/POP.iml" filepath="$PROJECT_DIR$/POP.iml" />
+      <module fileurl="file://D:\KULIAH\KAMPUS\SI-39-06\SEMESTER 6\RPL\SPRINT 3\Project-POP\POP.iml" filepath="D:\KULIAH\KAMPUS\SI-39-06\SEMESTER 6\RPL\SPRINT 3\Project-POP\POP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Project-POP.iml" filepath="$PROJECT_DIR$/.idea/Project-POP.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\KULIAH\KAMPUS\SI-39-06\SEMESTER 6\RPL\SPRINT 3\Project-POP\app\app.iml" filepath="D:\KULIAH\KAMPUS\SI-39-06\SEMESTER 6\RPL\SPRINT 3\Project-POP\app\app.iml" />
     </modules>
   </component>
 </project>

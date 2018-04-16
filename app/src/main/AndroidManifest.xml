@@ -16,6 +16,29 @@
             </intent-filter>
         </activity>
         <activity android:name=".SecondActivity"></activity>
+    <activity android:name=".ListGedung">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <activity
+        android:name=".DetailActivity"
+        android:label="@string/title_activity_detail"
+        android:parentActivityName=".ListGedung"
+        android:theme="@style/AppTheme.NoActionBar">
+    </activity>
+        <activity android:name=".Menu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Favorite" />
+        <activity android:name=".Account" />
+        <activity android:name=".Help"></activity>
     </application>
 
 </manifest>

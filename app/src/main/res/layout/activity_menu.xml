@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/building"
+    android:orientation="vertical"
+    tools:context="id.web.annisa.pop.Menu">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="412dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_weight="1"
+            android:text="MENU UTAMA"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:onClick="onFavorite"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorPrimary"
+            app:srcCompat="@android:drawable/btn_star"
+            android:onClick="onFavorite"/>
+
+        <TextView
+            android:layout_width="202dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Favorite"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="35dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            app:srcCompat="@android:drawable/ic_menu_edit"
+            android:onClick="onAccount"/>
+
+        <TextView
+            android:layout_width="202dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onAccount"
+            android:text="Account"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="35dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="281dp">
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:onClick="onHelp"
+            app:srcCompat="@android:drawable/ic_menu_help" />
+
+        <TextView
+            android:layout_width="202dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onHelp"
+            android:text="Help"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="35dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="188dp"
+            android:layout_height="58dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="Cari Gedung" />
+        <!--android:onClick="onGedung"-->
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="194dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="Menu Utama"
+            android:textColor="@android:color/darker_gray" />
+
+    </LinearLayout>
+
+</LinearLayout>
